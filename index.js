@@ -6,6 +6,9 @@ function BoardMember(name, homeState, training) {
      return 'No, I must disagree';
   };
   this.approve = function () {
-    return 
+    return 'You can do that!';
+  }
+  this.doCharity = function () {
+    return ''
   }
 }
